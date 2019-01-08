@@ -1,0 +1,6 @@
+NHIS<-read.table("C:\\Users\\Chithra Viji\\Desktop\\NHIS_2007_data.csv",header=T,sep=",")
+str(NHIS)
+summary(NHIS)
+hist(NHIS$weight) \\This will show the histogram of your file
+plot(NHIS$weight) \\this will show thae plot chart of ur file
+boxplot(NHIS$weight)\\this will show thae plot chart of ur file
